@@ -1,0 +1,89 @@
+ body {
+    background-color: #121212;
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+    height: 100vh;
+
+    display:grid;
+    grid-template-areas: 
+    "header section"
+    "main section"
+     "main section";
+    
+     
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows: 100px 1fr 100px;
+}
+
+
+:root {
+  --text-base: #afb6c2;
+  --text-title: #d4ccb6;
+  --background: #191816;
+  --form-background: #24221f;
+  --primary-color: #ffc632;
+}
+
+
+header {
+    background-color: #121212;
+    color: #fff;
+    grid-area: header;
+    padding-top:20px;
+}
+
+header .logo-img {
+    padding-left: 40px;
+}
+
+
+
+section{
+    background-color: #252525;
+    color: #fff;
+    grid-area: section;
+
+}
+
+section img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+main {
+    background-color: #121212;
+    grid-area: main;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    font-family: Poppins, sans-serif;
+    font-weight:400;
+    
+   
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
