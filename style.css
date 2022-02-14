@@ -31,7 +31,9 @@
   --primary-color: #ffc632;
 }
 
-
+h1 {
+  font-size: 1.5rem;
+}
 header {
     background-color: #121212;
     color: #fff;
@@ -42,8 +44,6 @@ header {
 header .logo-img {
     padding-left: 40px;
 }
-
-
 
 section{
     background-color: #252525;
@@ -76,10 +76,7 @@ main form {
     background-color: var(--form-background);
     width: 572px;
     border-radius: 4px;
-    
-    
 }
-
 
 .container {
     display: flex;
@@ -90,13 +87,10 @@ main form {
     padding: 20px;
     box-sizing: border-box;
     margin: 0 auto;
-
-    
 }
 
 
 .content {
-   
     line-height: 0.2rem;
     margin-bottom:1.5rem;
 
@@ -115,9 +109,10 @@ main form {
 
 
 .input-group input {
-   
+    
     width: 335px;
     margin-bottom: 1.2rem;
+    
     height: 24px;
     background-color: var(--form-background);
     color: var(--text-title);
@@ -137,8 +132,10 @@ input.active {
     background-position: 2px 2px;
 }
 
-input  {
+input {
+
     padding-left: 2.2em;
+    
 }
 
 
@@ -181,4 +178,24 @@ input #password {
     cursor: pointer;
     border-radius: 5px;
     margin-top: 20px;
+}
+
+.error {
+    background-color: orangered;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 1.2rem;
+    width:335px;
+    background-color: var(--form-background);
+    padding: 10px;
 }
